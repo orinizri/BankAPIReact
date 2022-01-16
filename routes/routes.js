@@ -12,7 +12,7 @@ const {
 } = require('../controllers/controller')
 
 
-bankRouter.get("/users", getAllClients);
+bankRouter.get("/", getAllClients);
 bankRouter.get("/users/:id", (req,res) => {
     try {
         res.status(200).send(getClientByPassportId(req, res))
