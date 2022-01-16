@@ -5,7 +5,7 @@ const Api = () => {
     const [data, setData] = useState([])
     useEffect(()=> {
         const getData = async () => {
-            const users = await axios.get('https://bank-api-orinizri.herokuapp.com/api/users');
+            const users = await axios.get('/api/users');
             setData(users.data)
             
         }
