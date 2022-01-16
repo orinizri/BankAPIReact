@@ -11,9 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 
-app.use("/", (req,res)=> {
-    res.send("OK YAY")
-}); //bankRouter
+app.use("/", bankRouter); //bankRouter
 
 const port = process.env.PORT || 3000
 app.listen(port, ()=> {
