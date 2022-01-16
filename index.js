@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 
-app.use("/", bankRouter);
+app.use("https://bank-api-orinizri.herokuapp.com/", bankRouter);
 
 const port = process.env.PORT || 3000 
 app.listen(port, ()=> {
