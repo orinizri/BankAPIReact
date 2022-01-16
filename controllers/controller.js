@@ -6,7 +6,7 @@ const path = require("path")
 
 
 const loadData = () => {
-    let reqPath = path.join(__dirname, '../' + 'bankData.json');
+    let reqPath = path.join(__dirname, '/../' + 'bankData.json');
     const rawData = fs.readFileSync(reqPath)
     try {
         const dataBuffer = rawData.toString()
