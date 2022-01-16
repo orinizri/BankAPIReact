@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 
-app.use("/", bankRouter);
+app.use("/users", bankRouter);
 
 
 app.listen(3000, ()=> {
