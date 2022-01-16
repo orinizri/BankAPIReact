@@ -4,7 +4,7 @@ const cors = require('cors')
 const app = express();
 const getData = require('./controllers/controller')
 const bankRouter = require('./routes/routes')
-
+require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
