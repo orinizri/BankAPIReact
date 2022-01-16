@@ -5,7 +5,7 @@ const Api = () => {
     const [data, setData] = useState([])
     useEffect(()=> {
         const getData = async () => {
-            const users = await axios.get('http://localhost:3000/users');
+            const users = await axios.get('/users');
             setData(users.data)
             
         }
