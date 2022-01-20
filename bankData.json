@@ -1,1 +1,42 @@
-[{"passport_id":"11","credit":"10","deposits":108},{"passport_id":"52","credit":666,"deposits":9999902},{"passport_id":"11","credit":"10","deposits":9},{"passport_id":"1","credit":0,"deposits":999998},{"passport_id":"666","credit":0,"cash":1000000000},{"passport_id":"10","credit":0,"cash":0},{"passport_id":"101","credit":0,"cash":0},{"passport_id":"1011","credit":0,"deposits":10000000}]
+[
+    {
+        "passport_id": "11",
+        "credit": "10",
+        "deposits": 108
+    },
+    {
+        "passport_id": "52",
+        "credit": 666,
+        "deposits": 9999902
+    },
+    {
+        "passport_id": "11",
+        "credit": "10",
+        "deposits": 9
+    },
+    {
+        "passport_id": "1",
+        "credit": 0,
+        "deposits": 999998
+    },
+    {
+        "passport_id": "666",
+        "credit": 0,
+        "cash": 1000000000
+    },
+    {
+        "passport_id": "10",
+        "credit": 0,
+        "cash": 0
+    },
+    {
+        "passport_id": "101",
+        "credit": 0,
+        "cash": 0
+    },
+    {
+        "passport_id": "1011",
+        "credit": 0,
+        "deposits": 10000000
+    }
+]
